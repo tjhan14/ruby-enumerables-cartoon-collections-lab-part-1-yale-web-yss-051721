@@ -17,6 +17,9 @@ describe "Using Each" do
     end
   end
 
+def greet_characters
+  characters_array
+
   describe "list_dwarves" do
     it "prints out the 7 dwarves in a numbered list" do
       dwarves = ["Dopey", "Grumpy", "Bashful"]
