@@ -41,4 +41,19 @@ end
   end
 end
 
-dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
+def list_dwarves(dwarves_array)
+  dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
+  dwarves_array.each_with_index do |dwarf|
+    puts dwarf
+  end
+end
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
