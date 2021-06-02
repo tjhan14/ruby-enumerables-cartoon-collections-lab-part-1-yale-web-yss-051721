@@ -17,7 +17,7 @@ describe "Using Each" do
     end
   end
 
-def greet_characters
+def greet_characters(characters_array)
   characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
   characters_array.each do |character|
     puts "Hello #{character}!"
