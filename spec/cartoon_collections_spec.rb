@@ -41,3 +41,4 @@ end
   end
 end
 
+dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
