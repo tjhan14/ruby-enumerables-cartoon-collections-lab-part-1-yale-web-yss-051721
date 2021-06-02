@@ -18,7 +18,11 @@ describe "Using Each" do
   end
 
 def greet_characters
-  characters_array
+  characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
+  characters_array.each do |character|
+    puts "Hello #{"character"}"
+  end
+end
 
   describe "list_dwarves" do
     it "prints out the 7 dwarves in a numbered list" do
